@@ -1,14 +1,15 @@
 <nav class="navbar nav navbar-nav navbar-expand-md navbar-dark bg-dark fixed-top" style="padding: 0px !important;height: 45px;">
+    <div class="navbar-brand" href="#">AMCC & SoE Ownership</div>
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='home'}">
-        <a class="nav-link" data-toggle="tab" href="#" routerLink="default" (click)="changeActiveTab('home')">Home
+      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='SoE Files'}">
+        <a class="nav-link" data-toggle="tab" href="#" routerLink="SoE Files" (click)="changeActiveTab('SoE Files')">SoE Files
         </a>
       </li>
-      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='registration'}">
-        <a class="nav-link" data-toggle="tab" href="#" routerLink="registration" (click)="changeActiveTab('registration')">Registration</a>
+      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='Teams'}">
+        <a class="nav-link" data-toggle="tab" href="#" routerLink="Teams" (click)="changeActiveTab('Teams')">Teams</a>
       </li>
-      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='aggridpage'}">
-        <a class="nav-link" data-toggle="tab" href="#" routerLink="aggridpage" (click)="changeActiveTab('aggridpage')">AgGrid Page</a>
+      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='APIs'}">
+        <a class="nav-link" data-toggle="tab" href="#" routerLink="APIs" (click)="changeActiveTab('APIs')">APIs</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">

@@ -1,4 +1,6 @@
-  
+  .bg-dark {
+    background-color: #0a63bb !important;
+  }  
 .welcome-style{
     margin-right: .5rem!important;
     color: #f3f3f3;
@@ -9,13 +11,16 @@
     width: 2.5rem;
     border-radius: 50%!important;
   }
+  .nav-link {
+    height: 45px;
+  }
   .nav-item.active {
     background-color: #d8d8d8;
     height: 45px;
   }
   .nav-item:hover {
-    background-color: #805C50;
     height: 45px;
+    color: white;
   }
   .dropdown:hover > .dropdown-menu {
     display: block;
