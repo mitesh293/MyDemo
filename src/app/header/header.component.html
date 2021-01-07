@@ -1,0 +1,25 @@
+<nav class="navbar nav navbar-nav navbar-expand-md navbar-dark bg-dark fixed-top" style="padding: 0px !important;height: 45px;">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='home'}">
+        <a class="nav-link" data-toggle="tab" href="#" routerLink="default" (click)="changeActiveTab('home')">Home
+        </a>
+      </li>
+      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='registration'}">
+        <a class="nav-link" data-toggle="tab" href="#" routerLink="registration" (click)="changeActiveTab('registration')">Registration</a>
+      </li>
+      <li class="nav-item mouse-hand" [ngClass]="{active: linkType =='aggridpage'}">
+        <a class="nav-link" data-toggle="tab" href="#" routerLink="aggridpage" (click)="changeActiveTab('aggridpage')">AgGrid Page</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item1 dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="welcome-style">Welcome: {{user}}</span> <img src={{userImage}} class="welcome-user-image rounded-circle">
+        </a>
+      </li>
+    </ul>
+    <div>
+     <!-- <span class="welcome-style">Welcome: Mohit </span>
+      <img class="welcome-user-image mouse-hand" src="/assets/img/mitesh.JPG">-->
+    </div>
+</nav>
